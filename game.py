@@ -69,8 +69,8 @@ def show(sumen, psum, label, e1, e2, e3, eh, ec1, ec2, ec3):
 
         if abs(21 - psum) == abs(21 - sumen):
             label["text"] = "It's a tie!"
-            playerpts = playerpts + Math.floor(pot/2)
-            epts = epts + Math.floor(pot/2)
+            playerpts = playerpts + math.floor(pot/2)
+            epts = epts + math.floor(pot/2)
             pot = 10
             nxtroundbtn.place(height=50, width=150, x=600, y=510)
         turn = 2
@@ -226,8 +226,8 @@ def eshow(sumen, psum, label, e1, e2, e3, eh, ec1, ec2, ec3):
 
         if abs(21 - psum) == abs(21 - sumen):
             label["text"] = "It's a tie!"
-            playerpts = playerpts + Math.floor(pot/2)
-            epts = epts + Math.floor(pot/2)
+            playerpts = playerpts + math.floor(pot/2)
+            epts = epts + math.floor(pot/2)
             pot = 10
             nxtroundbtn.place(height=50, width=150, x=600, y=510)
         turn = 2
